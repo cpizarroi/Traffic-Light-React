@@ -1,3 +1,47 @@
+* {
+    background-color: grey;
+}
+
+.container {
+    width: 25px;
+    height: 60px;
+    background: black;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+.traffic-Light {
+    width: 130px;
+    height: 330px;
+    background: black;
+    padding: 15px;
+    margin-top: 55px;
+    border-radius: 25%;
+    align-content: center;
+    justify-content: center;
+}
+.Red {
+    background: red;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+.Yellow {
+    background: yellow;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+.Green {
+    background: green;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+.glow {
+    box-shadow: 0px 0px 10px 10px #fcfbfb;
+}
 
 /* 
 
